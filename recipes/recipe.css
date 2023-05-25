@@ -1,3 +1,35 @@
-img {
-    border-radius: 10%;
+img
+{
+    border-radius: 100%;
+    border-style: solid;
+    border-color: beige;
+    border-width: .25rem;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #111827;
+    color: beige;
+}
+
+a:visited {
+    color: brown;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+section {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bullets {
+    text-align: left;
+    margin: auto 10%;
+    min-width: fit-content;
+    max-width: fit-content;
 }
